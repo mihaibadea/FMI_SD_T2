@@ -60,14 +60,14 @@ class SkipList
         void rem(int x)
         {
 
-            bool del = 1;
+            bool del = true;
 
             while(del)
             {
                 Node *tmp = start;
                 Node *deac[level_max+1];
 
-                del=0;
+                del = false;
 
                 for(int i=0; i<=level_max; i++)
                 {
