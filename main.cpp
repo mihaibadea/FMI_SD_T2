@@ -215,7 +215,7 @@ class SkipList
         };
         Node *start;
         int level;
-        int level_max=10;
+        int level_max=5;
         int get_level()
         {
             return rand()%level_max+1;
